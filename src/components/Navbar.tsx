@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import { CiSearch } from "react-icons/ci";
 
 
 const Navbar = () => {
@@ -14,7 +13,6 @@ const Navbar = () => {
                 <Link href={"/Products"}>Products</Link>
                 <Link href={"/About"}>About</Link>
                 <Link className='' href={"/Contact"}>Contact</Link>
-                <CiSearch />
 
             </div>
 
